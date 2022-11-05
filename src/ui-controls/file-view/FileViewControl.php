@@ -11,7 +11,7 @@ class FileViewControl extends Control
 	/**
 	 * @var string
 	 */
-	private $directory;
+	private string $directory;
 
 	public function __construct(string $directory)
 	{
@@ -42,6 +42,11 @@ class FileViewControl extends Control
 			}
 		}
 		$this->flashMessage('Soubory smazány', 'success');
+	}
+
+	public function handleOpen(string $filename): void
+	{
+
 	}
 
 	public function render(): void
