@@ -1,0 +1,21 @@
+{
+  "authors": [
+    {
+      "name": "Ludek Bednarz",
+      "email": "ludek.bednarz@gmail.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "description": "Common UI controls for my projects",
+  "name": "ludoi/ui-controls",
+  "require": {
+    "php": ">=8.0",
+    "nette/utils": ">=3",
+    "nette/application": "^3",
+    "latte/latte": "^3"
+  }
+}
